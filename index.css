@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background {
+    position: absolute;
+    top: 50%; /* Start from the middle of the height of the webpage */
+    left: 0;
+    width: 100%;
+    height: 100%; /* Set the height to 50% of the viewport height */
+    background-image: url('Free herb spice Photos & Pictures _ Page 2.jpg'); /* Replace 'background-image.jpg' with your background image */
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .container {
+    height: 2000px; /* Ensure enough scrollable height for demonstration */
+    position: relative;
+  }
+  
+  .header {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust opacity as needed */
+  }
+  
+  .content {
+    padding-top: 150px; /* Adjust the top padding to create space for the header and background */
+  }
+  
+  .meals {
+    position: absolute;
+    top: 50%; /* Adjust the initial position as needed */
+    left: 50%; /* Adjust the initial position as needed */
+    transform: translate(-50%, -50%);
+   /* background-image: url('burger.png'); /* Replace 'ship-image.jpg' with your ship image */
+    width: 200px; /* Adjust ship width */
+    height: 200px; /* Adjust ship height */
+    background-size: cover;
+  }
+  
+  .text {
+    position: absolute;
+    top: 20%; /* Adjust the initial position as needed */
+    left: 50%; /* Adjust the initial position as needed */
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+   
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.custom-width-90 {
+    width: 90%;
+}
+
+.h-36 {
+    height: 9rem; /* 36px */
+}
+
+.md\:text-4xl {
+    font-size: 2.25rem; /* 36px */
+}
+
+.text-2xl {
+    font-size: 1.5rem; /* 24px */
+}
+
+.lg\:text-5xl {
+    font-size: 3rem; /* 48px */
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    margin-right: 1rem; /* 4px */
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: 0.5rem; /* 2px */
+}
+
+.max-w-7xl {
+    max-width: 80rem; /* 1280px */
+}
+
+.custom-width-70 {
+    width: 70%;
+}
+
+
+
+.md\:w-1\/2 {
+    width: 50%; /* 1/2 */
+}
+
+.bg-gray-200 {
+    background-color: #edf2f7;
+}
+
+.py-10 {
+    padding-top: 2.5rem; /* 40px */
+    padding-bottom: 2.5rem; /* 40px */
+}
+
+.rounded-2xl {
+    border-radius: 1rem; /* 16px */
+}
+
+.ml-4 {
+    margin-left: 1rem; /* 4px */
+}
+
+.px-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.text-5xl {
+    font-size: 3rem; /* 48px */
+}
+
+.bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--gradient-color-1), var(--gradient-color-2));
+}
+
+.from-blue-400 {
+    --gradient-color-1: #60a5fa;
+}
+
+.to-emerald-400 {
+    --gradient-color-2: #10b981;
+}
+
+.bg-clip-text {
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.text-transparent {
+    color: transparent;
+}
+
+.text-md {
+    font-size: 1.125rem; /* 18px */
+}
+
+.mt-8 {
+    margin-top: 2rem; /* 32px */
+}
+
+.text-gray-800 {
+    color: #2d3748;
+}
+
+.text-xs {
+    font-size: 0.75rem; /* 12px */
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.from-fuchsia-500 {
+    --gradient-color-1: #fuchsia-500;
+}
+
+.to-orange-500 {
+    --gradient-color-2: #fbbf24;
+}
+
+  

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax Effect</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="container">
+    <div class="header">
+      <h1>Kitchen Name</h1>
+      <!-- Additional content like kitchen details can go here -->
+    </div>
+    <div class="flex items-center justify-center">
+        <div class="flex-col items-center justify-center text-gray-800 text-center">
+            <div class="flex items-center justify-center">
+                <div class="h-36 w-[90%] flex items-center justify-center md:text-4xl text-2xl lg:text-5xl font-bold">Welcome to Ahaar</div>
+            </div>
+            <div class="flex flex-row justify-center"> <!-- Change flex-col to flex and add flex-row -->
+                <div class="w-[70%] md:w-1/2 bg-gray-200 py-10 rounded-2xl flex items-center justify-center ml-4">
+                    <div class="flex-col items-center px-0 md:px-6">
+                        
+                        <div class="text-md mt-8 font-bold text-gray-800">Login/Register as Customers</div>
+                        <div class="text-xs font-medium text-gray-800">click button below</div>
+                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-4">
+                          <a href="login_customer.html" class="text-white">Tiffin</a>
+                        </button>
+                        <!-- Button for Tiffin -->
+                    </div>
+                </div>
+                <div class="w-[70%] md:w-1/2 bg-gray-200 py-10 rounded-2xl flex items-center justify-center ml-4">
+                    <div class="flex-col items-center px-0 md:px-6">
+                        
+                        <div class="text-md mt-8 font-bold text-gray-800">Login/Register as Chef</div>
+                        <div class="text-xs font-medium text-gray-800">click button below</div>
+                        <button class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full mt-4">Chef</button> <!-- Button for Chef -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+      <div class="meals"></div>
+      <div class="text"></div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
+

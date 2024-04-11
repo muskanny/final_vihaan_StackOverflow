@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login_customer.css">
+    <title>My Website</title>
+</head>
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="logo">Your Logo</div>
+        <div class="nav">
+            <ul>
+                <li><a href="#" onclick="showLogin()">Login</a></li>
+                <li><a href="#" onclick="showRegister()">Register</a></li>
+
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#our-chefs">Our Chefs</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="banner">
+    <img src="food_background-transformed.png" alt="Banner Image">
+</div>
+
+<div id="about-us" class="section">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>This is the About Us section.</p>
+    </div>
+</div>
+
+<div id="our-chefs" class="section">
+    <div class="container">
+        <h2>Our Chefs</h2>
+        <p>This is the Our Chefs section.</p>
+    </div>
+</div>
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="hideLogin()">&times;</span>
+        <div class="left-half">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <input type="submit" value="Login">
+            </form>
+        </div>
+        <div class="right-half">
+            <img src="tiffin_image.jpg" alt="Image Description">
+        </div>
+    </div>
+</div>
+
+<div id="registerModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('registerModal')">&times;</span>
+        <div class="left-half">
+            <h2>Register</h2>
+            <form id="registerForm" onsubmit="submitForm(event, 'register')">
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" required>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" required>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <input type="submit" value="Register">
+            </form>
+        </div>
+        <div class="right-half">
+            <img src="chef_image.jpg" alt="Image Description">
+        </div>
+    </div>
+</div>
+
+
+<!-- Rest of your content -->
+
+<script src="login_customer.js"></script>
+</body>
+</html>
