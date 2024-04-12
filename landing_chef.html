@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chef's Kitchen</title>
+  <link rel="stylesheet" href="landing_chef.css">
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <div class="logo">Chef's Kitchen</div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container">
+      <div class="banner">
+        <img src="food_background-transformed.png" alt="Chef Banner">
+        <button id="add-menu-btn" class="btn">Add Menu</button>
+      </div>
+    </div>
+  </header>
+
+  <section id="add-menu-popup" class="popup">
+    <div class="popup-content">
+      <span class="close-btn">&times;</span>
+      <h2>Add Menu</h2>
+      <form id="menu-form">
+        <div class="form-group">
+          <label for="food-type">Food Type:</label>
+          <select id="food-type" name="food-type">
+            <option value="veg">Veg</option>
+            <option value="non-veg">Non-Veg</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="days">Days of Week:</label>
+          <input type="text" id="days" name="days" placeholder="E.g. Monday, Tuesday...">
+        </div>
+        <div class="form-group">
+          <label for="meal-type">Meal Type:</label>
+          <select id="meal-type" name="meal-type">
+            <option value="breakfast">Breakfast</option>
+            <option value="lunch">Lunch</option>
+            <option value="dinner">Dinner</option>
+          </select>
+        </div>
+        <div class="form-group">
+            <label for="contains">Contains:</label>
+            <input type="text" id="contains" name="contains" placeholder="E.g. Ingredients...">
+          </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="tie-up-with-ngos">
+    <div class="container">
+      <h2>Tie Up with NGOs</h2>
+      <div class="ngo-cards">
+        <div class="ngo-card">
+          <img src="ngo-image1.jpg" alt="NGO Image 1">
+          <div class="ngo-info">
+            <h3>NGO Title 1</h3>
+            <p>Description of the NGO...</p>
+          </div>
+        </div>
+        <div class="ngo-card">
+            <img src="ngo-image1.jpg" alt="NGO Image 1">
+            <div class="ngo-info">
+              <h3>NGO Title 1</h3>
+              <p>Description of the NGO...</p>
+            </div>
+        </div>
+        <div class="ngo-card">
+            <img src="ngo-image1.jpg" alt="NGO Image 1">
+            <div class="ngo-info">
+              <h3>NGO Title 1</h3>
+              <p>Description of the NGO...</p>
+            </div>
+        </div>
+        <div class="ngo-card">
+            <img src="ngo-image1.jpg" alt="NGO Image 1">
+            <div class="ngo-info">
+              <h3>NGO Title 1</h3>
+              <p>Description of the NGO...</p>
+            </div>
+        </div>
+        <!-- Repeat the above structure for each NGO card -->
+      </div>
+    </div>
+  </section>
+
+  <script src="landing_chef.js"></script>
+</body>
+</html>
