@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Order</title>
+    <link rel="stylesheet" href="customer_order.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meal Order Form</h1>
+        <form id="orderForm" onsubmit="submitOrder(event)">
+            <div class="form-group">
+                <label for="vegNonVeg">Veg/Non-Veg:</label>
+                <select id="vegNonVeg" name="vegNonVeg">
+                    <option value="veg">Veg</option>
+                    <option value="nonveg">Non-Veg</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="cuisine">Cuisine:</label>
+                <select id="cuisine" name="cuisine">
+                    <option value="indian">Indian</option>
+                    <option value="italian">Italian</option>
+                    <option value="chinese">Chinese</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <select id="location" name="location">
+                    <option value="central_delhi">Central Delhi</option>
+                    <option value="faridabad">Faridabad</option>
+                    <option value="gurgaon">Gurgaon</option>
+                    <option value="vaishali">Vaishali</option>
+                    <option value="patparganj">Patparganj</option>
+                    <option value="noida">Noida</option>
+                </select>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script>
+        function submitOrder(event) {
+            event.preventDefault(); // Prevent default form submission
+            // Redirect to landing_customer.html
+            window.location.href = "landing_customer.html";
+        }
+    </script>
+</body>
+</html>

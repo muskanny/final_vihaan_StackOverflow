@@ -27,6 +27,22 @@ function hideRegister() {
 }
 
 // Close the modal if the user clicks outside of it
+
+// login_customer.js
+
+// Function to handle login form submission
+function submitLoginForm(event) {
+    event.preventDefault(); // Prevent form submission
+
+    // Get username and password from the form
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+
+    // Perform login validation here if needed
+
+    // Redirect to landing_customer.html
+    window.location.href = "landing_customer.html";
+}
 window.onclick = function(event) {
     var registerModal = document.getElementById("registerModal");
     if (event.target == registerModal) {

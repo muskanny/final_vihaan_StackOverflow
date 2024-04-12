@@ -1,0 +1,97 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .banner img {
+    max-width: 100%;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #ff5555;
+  }
+  
+  section {
+    padding: 50px 0;
+  }
+  
+  .blog-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .blog-card {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .video-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .video-card {
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .video-card img {
+    max-width: 100%;
+  }
+  
+  .video-card p {
+    margin-top: 10px;
+  }
+  
