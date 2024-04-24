@@ -1,1 +1,3 @@
 # temp_final
+Introducing Ahaar – your ultimate destination for delectable homemade meals delivered right to your doorstep. Say goodbye to hectic meal prep and hello to culinary convenience as we connect you with talented home chefs eager to delight your taste buds. Whether you are craving homemade classic recipes, want to learn through online cooking classes or want customize meal options, we have it all covered.
+We also provide home chefs the power to run their business through our web app, connect with NGOs to provide home made meals and collect additional revenue by offering cooking classes.
